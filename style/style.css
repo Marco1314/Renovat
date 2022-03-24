@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  padding: 30px;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav-item {
+  padding: 15px;
+  border-radius: 1000px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    margin-top: 0;
+  }
+}
+
+.nav-item:last-of-type {
+  margin: 0;
+}
+
+.nav-item:hover {
+  background-color: #f4bc16;
+}
+
+.nav-item:hover .nav-link {
+  color: White !important;
+}
+
+.nav-link {
+  text-align: center;
+  font-size: 1rem;
+  color: black !important;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-link {
+    text-align: left;
+  }
+}
+
+.metaNav {
+  width: 100%;
+  background-color: #f4bc16;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.metaNav__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.metanav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.metanav li {
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+.metanav li:last-child {
+  padding: 0;
+  padding-left: 25px;
+  border: none;
+}
+
+.metanav li a {
+  color: white;
+  font-size: 16px;
+}
+
+.slider__button {
+  padding: 25px;
+  background-color: #ffc107;
+  color: White;
+  border-radius: 500px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.slider__button:hover {
+  color: white;
+}
+
+.slider__content {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  width: 500px;
+  left: 20%;
+}
+
+.slider__text {
+  color: White;
+  font-size: 2rem;
+  font-weight: weight;
+}
+
+@media screen and (min-width: 768px) {
+  .slider__text {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .slider__text {
+    font-size: 5rem;
+  }
+}
+
+.slider__image {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.textimage {
+  margin-top: 100px;
+  display: block;
+  opacity: 0;
+}
+
+.textimage__text {
+  font-size: 1.1rem;
+  color: black;
+  margin-top: 25px;
+}
+
+.textimage__headline {
+  color: black;
+}
+
+.textimage__image:nth-child(2) {
+  position: relative;
+  width: 50%;
+  top: -100px;
+  right: -270px;
+}
+
+@media screen and (min-width: 1200px) {
+  .textimage__image:nth-child(2) {
+    right: -310px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .textimage__image:nth-child(2) {
+    right: -360px;
+  }
+}
+
+.textimage__image:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  background-color: black;
+  width: 150px;
+  height: 390px;
+  opacity: 0.7;
+}
+
+.textimage__textContainer {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .textimage__textContainer {
+    margin-top: 0;
+  }
+}
+
+.textimage__extraText {
+  margin-left: 25px;
+}
+
+.textimage__container {
+  margin-top: 70px;
+}
+
+.textimage__extras {
+  margin-top: 25px;
+}
+
+.MyfadeIn {
+  opacity: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/*# sourceMappingURL=style.css.map */

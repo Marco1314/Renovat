@@ -1,0 +1,47 @@
+.slider__button {
+  padding: 25px;
+  background-color: #ffc107;
+  color: White;
+  border-radius: 500px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.slider__button:hover {
+  color: white;
+}
+
+.slider__content {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  width: 500px;
+  left: 20%;
+}
+
+.slider__text {
+  color: White;
+  font-size: 2rem;
+  font-weight: weight;
+}
+
+@media screen and (min-width: 768px) {
+  .slider__text {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .slider__text {
+    font-size: 5rem;
+  }
+}
+
+.slider__image {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+/*# sourceMappingURL=slider.css.map */

@@ -1,0 +1,37 @@
+.navbar {
+    padding:30px;
+}
+.navbar-nav {
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+}
+.nav-item {
+    padding:15px;
+    border-radius: 1000px;
+    margin-top:25px;
+
+    @media screen and (min-width:992px) {
+        margin-top:0;
+    }
+
+    &:last-of-type {
+        margin:0;
+    }
+
+    &:hover {
+        background-color: #f4bc16;
+        .nav-link {
+            color:White !important;
+        }
+    }
+}
+.nav-link {
+    text-align: center;
+    font-size: 1rem;
+    color:black !important;
+
+    @media screen and (min-width:992px) {
+        text-align: left;
+    }
+}

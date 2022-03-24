@@ -1,0 +1,33 @@
+.metaNav {
+    width:100%;
+    background-color: #f4bc16;
+    padding: 10px;
+    display:flex;
+
+    &__content {
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+.metanav {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display:flex;
+
+    li {
+        padding-right:25px;
+        border-right:2px solid white;
+
+        &:last-child {
+            padding: 0;
+            padding-left:25px;
+            border:none;
+        }
+        a {
+            color:white;
+            font-size: 16px;
+        }
+    }
+}

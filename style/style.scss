@@ -1,0 +1,16 @@
+body {
+    margin:0;
+}
+
+@import '../content/standards/navigation/navigation';
+@import "../content/standards/navigation/metaNav";
+@import "../content/elements/slider/slider";
+@import "../content/elements/textimage/textimage";
+
+
+
+
+.MyfadeIn {
+    opacity: 1;
+    transition: all 1s;
+}
